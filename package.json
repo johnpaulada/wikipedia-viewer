@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@pingy/cli": "^0.6.6",
+    "global": "^4.3.2",
+    "pingy": "^0.3.0"
+  },
+  "devDependencies": {
+    "@pingy/cli": "^0.6.6",
+    "babel-core": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "node-sass": "^4.5.3"
+  }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Wikipedo</title>
+        <meta name="description" content="Wikipedo viewer is a beautiful viewer for Wikipedia.">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body id="app">
+        <header>
+            <h1>Wikipedo</h1>
+        </header>
+        <section>
+            <input type="text" m-model='search'>
+            <button m-on:click="startSearch">Search</button>
+            <div id="search-results">
+                <div m-for="entry in results">
+                    <h3><a href="{{entry.link}}">{{entry.title}}</a></h3>
+                    <p>{{entry.excerpt}}</p>
+                </div>
+            </div>
+        </section>
+        <script src="https://unpkg.com/moonjs/dist/moon.min.js" defer></script>
+        <script src="scripts/main.js" defer></script>
+    </body>
+</html>
