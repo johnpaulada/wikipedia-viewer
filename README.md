@@ -1,6 +1,8 @@
 # Wikipedo
 A Wikipedia viewer. Built for FreeCodeCamp.
 
+Codepen: [https://codepen.io/jepe-ada/pen/wegERo](https://codepen.io/jepe-ada/pen/wegERo)
+
 [![forthebadge](http://forthebadge.com/images/badges/fuck-it-ship-it.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/gluten-free.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
@@ -14,3 +16,6 @@ A Wikipedia viewer. Built for FreeCodeCamp.
 - Build Tool: [Pingy](https://pin.gy/cli/) - *Zero-configuration build tool.*
 - Package Manager: [Yarn](https://yarnpkg.com/en/) - *Like on NPM on steroids.*
 - Hosting: [Surge](http://surge.sh/) - *Super fast hosting for static pages.*
+
+## License
+MIT
