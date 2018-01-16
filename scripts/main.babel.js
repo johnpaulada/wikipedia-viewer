@@ -9,7 +9,7 @@ const app = new Moon({
             searchWiki(this.get('search'), json => {
                 this.set('results', json.query.search.map(result => ({
                     title: result.title,
-                    link: `http://en.wikipedia.org/wiki/${result.title}`,
+                    link: `https://en.wikipedia.org/wiki/${result.title}`,
                     excerpt: result.snippet.replace(/<(?:.|\n)*?>/gm, ''),
                 })))
             })
@@ -18,7 +18,7 @@ const app = new Moon({
 });
 
 function searchWiki(query, process) {
-    const wikipediaQuery = `http://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${query}&format=json&origin=*`;
+    const wikipediaQuery = `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${query}&format=json&origin=*`;
 
     fetch(wikipediaQuery)
         .then(res => res.json())
